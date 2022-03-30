@@ -40,7 +40,14 @@ public class CalculadoraEspecial {
          }//aca el while cerrara el menu hasta que se de la opcion 5 cual es la salida
      }while (opcion !=5);
      }
-
+       //aca todo lo hacemos por void  y como nos damos cuenta que la variable scanner es global que se puede hacer en toda las operaciones
+    static void RaizCuadrada(){
+        System.out.println("operacion De raiz cuadrada");
+          System.out.print("\ningresa el numero de que quieres sacar raiz");
+        int num= scanner.nextInt();
+        double raiz = Math.sqrt(num);
+       System.out.print("\n la raiz del numero"+num +"es=" +raiz);
+    }
 
    
     
