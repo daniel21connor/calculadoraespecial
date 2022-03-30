@@ -70,7 +70,25 @@ public class CalculadoraEspecial {
         Areaa= Vasee*Alturaa/2;
         System.out.println("el area del triangulo es;" +  Areaa);
       }
-
+        static void Potencia(){
+         System.out.println("\n Ingresa el numero de base:");
+         int base=scanner.nextInt();
+         System.out.println("\n ingresa numero del exponente:");
+         int exponente=scanner.nextInt();
+         System.out.println("\n el resultado es:"+Potencia (base, exponente));
+       
+     
+    }
+    public static int Potencia (int base, int exponente){
+        if  (exponente==0) {
+            return 1;
+            
+        }else {
+            return base*Potencia(base, exponente-1);
+             
+     
+    }
+       }
    
     
     
