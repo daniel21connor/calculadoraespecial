@@ -57,7 +57,19 @@ public class CalculadoraEspecial {
       while(numero !=0){
           Factorial*=numero;
           numero --; 
+    } System.out.print("\n el factorial es:"+  Factorial);
     }
+       static void AreaDeUnTriangulo (){
+           
+       System.out.println("operacion de area de un triangulo");
+        double Vasee, Alturaa, Areaa;
+       System.out.println("\ningrese la base, para calcular del area:");
+       Vasee=scanner.nextDouble();
+       System.out.println("\n ingresa la altura, para el calculo del area ");
+       Alturaa=scanner.nextDouble();
+        Areaa= Vasee*Alturaa/2;
+        System.out.println("el area del triangulo es;" +  Areaa);
+      }
 
    
     
