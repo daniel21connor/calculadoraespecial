@@ -48,6 +48,16 @@ public class CalculadoraEspecial {
         double raiz = Math.sqrt(num);
        System.out.print("\n la raiz del numero"+num +"es=" +raiz);
     }
+       static void NumeroFactorial(){
+        System.out.println("operacion de  factorial");
+     System.out.print("\n escribe el numero que quieres factorial");
+        
+      int numero = scanner.nextInt();
+      int Factorial = 1;
+      while(numero !=0){
+          Factorial*=numero;
+          numero --; 
+    }
 
    
     
