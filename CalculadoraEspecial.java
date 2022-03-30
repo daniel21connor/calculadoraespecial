@@ -89,6 +89,12 @@ public class CalculadoraEspecial {
      
     }
        }
+    
+    static void Salida (){
+    System.out.println("Gracias por usar la calculadora especial");
+    }
+ }
+
    
     
     
