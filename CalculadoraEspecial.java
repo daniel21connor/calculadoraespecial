@@ -19,7 +19,27 @@ public class CalculadoraEspecial {
     System.out.print("\n 3. area de un triangulo");
     System.out.print("\n 4. potencia");
     System.out.print("\n5. salir ");
+     System.out.print("\n Escoja la operacion que desea");
+       opcion=scanner.nextInt();
      
+           switch(opcion){
+         case 1 -> RaizCuadrada();
+ 
+            
+         case 2 -> NumeroFactorial(); 
+         
+          case 3 -> AreaDeUnTriangulo (); 
+          
+          case 4 -> Potencia ();
+          
+          
+          case 5 -> Salida ();
+     
+     
+     
+         }//aca el while cerrara el menu hasta que se de la opcion 5 cual es la salida
+     }while (opcion !=5);
+     }
 
 
    
