@@ -3,6 +3,9 @@ package calculadoraespecial;
 
 
 public class NewClass {
+
+    private final double resulltado;
+
     public double raizCuadrada(double raiz){
         
      double num = Math.sqrt(raiz);
@@ -26,10 +29,16 @@ public class NewClass {
           double resultado= Math.pow(numero,  potencia);
           return resultado;
       }
-      public double numeroRamdon (double numero){
-         double resulltado = Math.random();
-           return  resulltado;
-      }
+
+    /**
+     * @return the resulltado
+     */
+    public double getResulltado() {
+        return resulltado;
+    }
+   public NewClass() {
+        this.resulltado =Math.random();
+    }
               
 }
 

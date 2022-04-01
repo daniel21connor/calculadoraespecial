@@ -33,10 +33,8 @@ public class CalculadoraEspecial {
            
  
             
-         case 2 : 
-              System.out.println("\ningrese la base, para calcular del area:");
-              double  numer=scanner.nextDouble();
-             System.out.println(objetoUno.numeroRamdon(numer));
+         case 2 :
+             System.out.println(objetoUno.getResulltado());
                       
          break;
           case 3 : 
